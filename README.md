@@ -12,7 +12,7 @@
 </ul>
 </body>
 
-<h2>EXERCISE</h2>
+<h2>EXERCISE 1</h2>
 <body>
 <ol>
 <li>Click the Windows Start button and select Settings.</li>
@@ -38,3 +38,23 @@
 </ol>
 </body>
 
+<h2>EXERCISE 2</h2>
+Windows Security uses security intelligence, also known as definitions, to identify known threats. These definitions include information about known threats. These definitions are updated automatically, but if you suspect a problem with your system, you should ensure that threat definitions are up-to-date before you run a scan.
+<body>
+<ol>
+  <li>Under Virus & threat protection updates, select Check for updates.</li>
+   <img src="proyecto1-g.jpg"/>
+  <li>You can view details for the most recent update to your threat definitions. Select Check for updates. This process could take a few minutes. When the update has completed, the Check for updates button will return, and you should notice that the last update time and date have changed. Select the back button to return to the Virus & threat protection screen.</li>
+ <img src="proyecto1-h.jpg"/>
+</ol>
+</body>
+
+<h2>EXERCISE 3</h2>
+<body>
+  <ol>
+    <li>Now we can run an antivirus scan. Click the Quick scan button on the Virus & threat protection screen. The scan will take several minutes to run. When complete, the Quick scan button will reappear. Click Threat history to view any recent findings.</li>
+     <img src="proyecto1-i.jpg"/>
+    <li>This page shows you the results of the last scan. You see the files identified as a threat and quarantined, so they cannot damage your device. You then see files identified as potential threats but allowed to continue running.</li>
+     <img src="proyecto1-j.jpg"/>
+  </ol>
+</body>
