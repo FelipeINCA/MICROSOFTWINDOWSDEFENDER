@@ -75,21 +75,30 @@ Windows Defender Firewall is a host-based software firewall that is included wit
 <body>
   <ol>
   <li>Click the Windows Start button. and then select Windows Security.</li>
+    <img src="proyecto1-k.jpg"/>
   <li>Click Firewall & network protection.</li>
+    <img src="proyecto1-l.jpg"/>
   <li>Here you will see the firewall status for the following</li>
     <a><b>Domain network:</b> Domain networks are workplace networks. A computer must be a part of the domain in order to communicate with other computers on that network. </a><br>
     <a><b>Private network:</b> Private networks are discoverable networks, meaning that only devices on that network can see or discover other devices on that same network. Home networks are a good example of a private network. </a><br>
-    <a><b>Public network:</b> Public networks are non-discoverable networks. A non-discoverable network is a network where your device cannot be discovered by other devices on your network. A coffee shop or a library would be a good example of a public network. You do not want other individuals to be able to discover your device.</a>
+    <a><b>Public network:</b> Public networks are non-discoverable networks. A non-discoverable network is a network where your device cannot be discovered by other devices on your network. A coffee shop or a library would be a good example of a public network. You do not want other individuals to be able to discover your device.</a><br>
+    <img src="proyecto1-m.jpg"/>
   <li>Click Domain network.</li>
+    <img src="proyecto1-n.jpg"/>
   <li>Verify that the Windows Defender Firewall is toggled to On. Note the checkbox under Incoming connections. This is a quick access location that blocks all incoming domain network traffic – even traffic that is normally permitted. Select the back arrow button to return to the Firewall and network protection window.</li>
+    <img src="proyecto1-o.jpg"/>
   <li>Click Private network.</li>
+    <img src="proyecto1-p.jpg"/>
   <li>Verify that the Windows Defender Firewall is toggled to On. Note the checkbox under Incoming connections. This is a quick access location that blocks all incoming private network traffic – even traffic that is normally permitted. Select the back arrow button to return to the Firewall and network protection window.</li>
+    <img src="proyecto1-q.jpg"/>
   <li>Click Public network.</li>
+    <img src="proyecto1-r.jpg"/>
   <li>Verify that the Windows Defender Firewall is toggled to On. Note the checkbox under Incoming connections. This is a quick access location that blocks all incoming public network traffic – even traffic that is normally permitted. Select the back arrow button to return to the Firewall and network protection window.</li>
+    <img src="proyecto1-s.jpg"/>
   <li>Click Allow an app through firewall.</li>
   <li>Scroll to Mozilla Firefox. Note that the current configuration allows for Firefox to communicate on the Private network but denies it from communicating on the Public network.</li>
   <li>Click the Public box next to Firefox. A checkmark will appear. Click OK to return to the Firewall & network protection screen. Users will now be able to use Mozilla Firefox on the public network.</li>
-  
+  <img src="proyecto1-t.jpg"/>
 </ol>
 
 </body>
