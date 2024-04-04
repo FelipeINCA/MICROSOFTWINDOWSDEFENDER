@@ -16,6 +16,7 @@
 <body>
 <ol>
 <li>Click the Windows Start button and select Settings.</li>
+  <img src="proyecto1-a.jpg"/>
 <li>On the Windows Settings page, select Update & Security.</li>
 <li>Under Update & Security, select Windows Security.</li>
 <li>Select Virus and threat protection.</li>
