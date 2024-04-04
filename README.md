@@ -107,18 +107,28 @@ Windows Defender Firewall is a host-based software firewall that is included wit
 <body>
   <ol>
     <li>Select Advanced settings on the Firewall & network protection screen.</li>
+    <img src="proyecto1-2a.jpg"/>
     <li>Here you will see an Overview in the center panel. Make special note of the two rule types listed on the left panel:</li>
-<a><b>Inbound rules:</b> Inbound rules determine what traffic is allowed to the computer.<br> <b>Outbound rules:</b> Outbound rules determine what traffic is allowed to leave the computer.<br> <b>Connection security rules.</b><br> <b>Monitoring.</b></a>
+<a><b>Inbound rules:</b> Inbound rules determine what traffic is allowed to the computer.<br> <b>Outbound rules:</b> Outbound rules determine what traffic is allowed to leave the computer.<br> <b>Connection security rules.</b><br> <b>Monitoring.</b></a><br>
+    <img src="proyecto1-2b.jpg"/>
     <li>Here you will see a long list of inbound rules. Note that some of the rules have a green checkmark next to them. This indicates that the rule is enabled to allow inbound communication. The rules without a checkmark are available for use but are not enabled.</li>
+    <img src="proyecto1-2c.jpg"/>
     <li>Scroll to the Key Management Service inbound rule in the Overview panel of Windows Defender Firewall with Advanced Security.</li>
+    <img src="proyecto1-2d.jpg"/>
     <li>Here you will see which profiles the rule applies to. In this case, Domain, Private and Public are all selected.</li>
+    <img src="proyecto1-2e.jpg"/>
     <li>Because we want to allow communication only with the domain and private networks, For Public this box should not have a checkmark. Next, click Apply, then click Ok.
 </li>
+    <img src="proyecto1-2f.jpg"/>
     <li>Now we will create an inbound rule that blocks communication with the public network. Since the new rule will be similar to the last, we will copy the existing rule. Right-click the Key Management Service (TCP-In) inbound rule and click Copy. Press Ctrl+V to paste.</li>
+    <img src="proyecto1-2g.jpg"/>
     <li>Since we want to block connection with the public network, select Block the connection on the General tab. Click Apply.</li>
+    <img src="proyecto1-2h.jpg"/>
     <li>Click the Advanced tab.</li>
+    <img src="proyecto1-2i.jpg"/>
     <li>Click the Domain and Private boxes to remove the checkmarks. Click the Public to add the checkmark. Click Ok.</li>
     <li>The Overview panel will show your changes. Right-click each Key Management Service (TCP-In) rule and click Enable rule.</li>
     <li>Now you will see that a green checkmark appears next to the first rule indicating that the rule allowing communication is enabled. A circle with a line through it appears next to the second rule indicating that the rule blocking communication is enabled.</li>
+    <img src="proyecto1-2j.jpg"/>
   </ol>
 </body>
